@@ -11,7 +11,7 @@ class LoginForm extends Component {
     cookie = new Cookies();
 
     api = axios.create({
-        baseURL: 'http://localhost:5000/',
+        baseURL: 'http://192.168.107.133:5000/',
         timeout: 2000,
         withCredentials: false
     })

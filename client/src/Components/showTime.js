@@ -6,7 +6,7 @@ import axios from 'axios'
 const AddShowTime = () => {
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000/index/admin',
+    baseURL: 'http://192.168.107.133:5000/index/admin',
     withCredentials: false
   })
 
